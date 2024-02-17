@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    /* width: 50px; */
+    height: 50px;
+    padding: 20px;
+}
+
+body{
+    background-image: linear-gradient(#030303,#003133);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1000px;
+    border: 2px solid white;
+    margin: auto;
+    height: 70vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-image: url("../chat-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#init-text{
+    color: #d1d1d1;
+    padding: 10px;
+    text-align: center;
+    width: 97%;
+    display: block;
+}
+
+.message{
+    background-color: transparent;
+    padding: 16px;
+    margin: 10px 50px;
+    border-radius: 25px;
+    clear: both;
+    max-width: 400px;
+}
+.left{
+    float: left;
+    border: 2px solid rgb(172, 172, 172);
+    background-color: #153839;
+    color: rgb(179, 179, 179);
+    clear: both;
+}
+.right{
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #117A75;
+    color: rgb(255, 255, 255);
+    clear:both;
+}
+
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 1030px;
+}
+
+#messageInp{
+    width: 71%;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    margin: 10px;
+    height: 50px;
+    outline: none;
+    padding: 0px 20px;
+    color: white;
+    background-color:#153839;
+}
+
+#messageInp::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+#messageInp:focus{
+    border: 2px solid red;
+}
+
+
+.btn{
+    float: right;
+    width: 20%;
+    margin: 10px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    background-color:#117A75;
+    cursor: pointer;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.btn:hover{
+    border: 2px solid red;
+    background-color: red;
+}
